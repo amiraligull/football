@@ -343,6 +343,9 @@ a:hover {
   border-bottom-width: 1px !important;
 }
 
+.portimage {
+  width: 100%;
+}
 @media only screen and (max-width: 1024px) {
   .reverse {
     flex-direction: column-reverse;
@@ -1353,6 +1356,9 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .portimage {
+    width: 70%;
   }
   .about .team {
     padding: 50px 0 40px;
