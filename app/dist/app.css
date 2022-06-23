@@ -22,13 +22,13 @@ body {
   padding-top: 170px;
 }
 body.home-1 {
-  background-image: url("../../assets/images/background/bg-element.jpg");
+  background-image: url("../../assets/images/background/bg-element.jpg") !important;
 }
 body.home-2 {
-  background-image: url("../../assets/images/background/bg-element-2.jpg");
+  background-image: url("../../assets/images/background/bg-element-2.jpg") !important;
 }
 body.home-3 {
-  background-image: url("../../assets/images/background/bg-element-3.jpg");
+  background-image: url("../../assets/images/background/bg-element-3.jpg") !important;
 }
 
 h1,
@@ -1348,13 +1348,9 @@ a:hover {
     padding: 100px 0;
   }
 
-  @media only screen and (max-width: 600px) {
-    body.home-2 {
-      /* border: 10px solid red; */
-      background-image: url("../../assets/images/background/bg-element-2.jpg") !important;
-    }
+  body.home-2 {
+    background-image: url("../../assets/images/background/bg-element-2.jpg") !important;
   }
-
   .about .team {
     padding: 50px 0 40px;
   }
