@@ -1330,6 +1330,33 @@ a:hover {
     padding: 0;
   }
 }
+.gifbg {
+  background-image: url("../../assets/images/1.gif") !important;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gifbg2 {
+  background-image: url("../../assets/images/2.gif") !important;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gifbg3 {
+  background-image: url("../../assets/images/3.gif") !important;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gifbg4 {
+  background-image: url("../../assets/images/4.gif");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
 @media only screen and (max-width: 767px) {
   .action,
   .about .section-about,
