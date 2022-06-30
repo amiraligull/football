@@ -1330,6 +1330,13 @@ a:hover {
     padding: 0;
   }
 }
+.playbg {
+  background-image: url("../../assets/images/bggame.png") !important;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  width: 494px !important;
+}
 .gifbg {
   background-image: url("../../assets/images/1.gif") !important;
   background-repeat: repeat;
@@ -1378,6 +1385,14 @@ a:hover {
     padding: 100px 0;
   }
 
+  .playbg {
+    background-image: url("../../assets/images/bggame.png") !important;
+    background-repeat: repeat;
+    /* background-position: center; */
+    background-position: 320px center;
+    background-size: cover;
+    width: 320px !important;
+  }
   body.home-2 {
     background-image: url("../../assets/images/background/bg-element-2.jpg") !important;
     background-size: cover;
