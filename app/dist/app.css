@@ -1331,11 +1331,11 @@ a:hover {
   }
 }
 .playbg {
-  background-image: url("../../assets/images/bggame.png") !important;
-  background-repeat: repeat;
+  background-image: url("../../assets/images/bggame2.png") !important;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 494px !important;
+  width: 400px !important;
 }
 .gifbg {
   background-image: url("../../assets/images/1.gif") !important;
@@ -1386,12 +1386,13 @@ a:hover {
   }
 
   .playbg {
-    background-image: url("../../assets/images/bggame.png") !important;
+    background-image: url("../../assets/images/bggame2.png") !important;
     background-repeat: repeat;
     /* background-position: center; */
-    background-position: 320px center;
+    background-position: center center;
     background-size: cover;
-    width: 320px !important;
+    width: 371px !important;
+    height: 230px !important;
   }
   body.home-2 {
     background-image: url("../../assets/images/background/bg-element-2.jpg") !important;
@@ -1700,7 +1701,7 @@ a:hover {
 }
 .section-about .item.big {
   width: 420px;
-  height: 500px;
+  height: 250px;
 }
 @media only screen and (max-width: 767px) {
   .section-about .item.big {
