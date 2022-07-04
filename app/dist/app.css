@@ -346,6 +346,12 @@ a:hover {
 .portimage {
   width: 100%;
 }
+
+@media only screen and (min-width: 1600px) {
+  .portimage {
+    width: 75%;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .reverse {
     flex-direction: column-reverse;
